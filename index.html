@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">MoveALand</a>
+        
+        <input type="checkbox" id="check">
+        <label for="check" class="icons">
+            <i class='bx bx-menu' id="menu-icon"></i>
+            <i class='bx bx-x' id="close-icon"></i>
+        </label>
+        <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#features">Features</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#contact">Contact Us</a>
+        <a href="#find">Find</a>
+    </nav>
+    </header>
+
+    <div id="home">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMMtwZwzph6xNhhgjP2BcmCtCX9ngd_Lm-tA&usqp=CAU" class="hero-image">
+        <div class="hero-text">
+            <h1>Live The Life You Deserve</h1>
+            <p>Let us be your travel partners. Think no more and click below.</p>
+            <button class="btn">Know More</button>
+        </div>
+    </div>
+    <div id="features">
+        <div class="card">
+            <img src="https://cdn.britannica.com/78/91978-050-B23E016C/balloons-NM-Albuquerque.jpg">
+            <p>Balloon Flights</p>
+        </div>
+        <div class="card">
+            <img src="https://static.businessworld.in/article/article_extra_large_image/1591366646_On41zz_En_route_Yushan_Mountain_Peak_the_highest_in_Taiwan.jpg">
+            <p>Mountain Holiday</p>
+        </div>
+        <div class="card">
+            <img src="https://thumbs.dreamstime.com/b/beach-background-beautiful-beach-landscape-tropical-nature-scene-palm-trees-blue-sky-summer-holiday-vacation-concept-93725354.jpg">
+            <p>Beach Holidays</p>
+        </div>
+    </div>
+    
+    <div id="testimonials" class="wrapper">
+        <h1>Our Happy Customers</h1>
+        <h5>Check what they say about us...</h5>
+
+        <div class="testRow">
+
+        <div class="cards">
+            <div class="testCard">
+                <img src="p1.jpg">
+                <p>Booking my dream vacation through MoveALand was an absolute breeze. The website's user-friendly interface and detailed information about destinations helped me make informed decisions. The trip was everything I hoped for and more. I'll definitely be using MoveALand for my future travel plans.</p>
+                <h4>Rachit Singh</h4>
+                <h4>Finance Advisor</h4>
+                <i class="fa fa-quote-left"></i>
+            </div>
+            <div class="testCard">
+                <img src="p2.jpeg">
+                <p>I'm a frequent traveler, and MoveALand has become my go-to platform. Their customer service is outstanding, and I appreciate the variety of travel options available. From flights to accommodations, everything is seamlessly integrated. Thanks to MoveALand, my travel experiences have been hassle-free and enjoyable.</p>
+                <h4>George Sheldon</h4>
+                <h4>Professor</h4>
+                <i class="fa fa-quote-left"></i>
+            </div>
+        
+
+       
+            <div class="testCard">
+                <img src="p3.jpeg">
+                <p>As a solo traveler, safety is my top priority. MoveALand exceeded my expectations by providing detailed safety information for each destination. The personalized travel recommendations were spot-on, and I felt confident exploring new places. MoveALand truly understands the needs of solo adventurers like me.</p>
+                <h4>Rachita Singh</h4>
+                <h4>Lawyer</h4>
+                <i class="fa fa-quote-left"></i>
+            </div>
+        </div>
+
+       
+          
+        
+    </div>
+      
+    </div>
+
+    <div id="contact">
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+    
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+    
+            <div class="error-message" id="emailError"></div>
+    
+            <button id="btn2" type="button" onclick="validateForm()">Submit</button>
+        </form>
+    
+    </div>
+
+    <div id="form">
+        <footer>
+            <div class="social-icons">
+                <a href="#" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+              
+            </div>
+    
+            <p class="last">&copy; 2023 MoveALand. All rights reserved.</p>
+           
+        </footer>
+    </div>
+    
+
+
+ <script src="script.js"></script>   
+</body>
+</html>
